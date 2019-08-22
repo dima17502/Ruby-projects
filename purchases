@@ -2,8 +2,8 @@ title = gets.chomp
 purchase = {}
 until title == 'стоп' do
 	purchase[title] = []
-	purchase[title].push(gets.chomp.to_i)
-	purchase[title].push(gets.chomp.to_i)
+	purchase[title].push(gets.chomp.to_f)
+	purchase[title].push(gets.chomp.to_f)
 	title = gets.chomp
 	end
 total_sum = 0
