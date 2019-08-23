@@ -1,7 +1,7 @@
  puts "Введите коэффициенты"
- a = gets.to_i
- b = gets.to_i
- c = gets.to_i
+ a = gets.to_f
+ b = gets.to_f
+ c = gets.to_f
  d = b ** 2 - 4 * a * c
  if d > 0
  	x1 = (-b  + Math.sqrt(d))/(2.0 * a)
